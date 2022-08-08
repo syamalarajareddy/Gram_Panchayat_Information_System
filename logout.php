@@ -1,0 +1,9 @@
+<?php
+if(isset($_GET['logout']))
+{
+session_start();
+session_destroy();
+header('location:log.php');
+exit;
+}
+?>

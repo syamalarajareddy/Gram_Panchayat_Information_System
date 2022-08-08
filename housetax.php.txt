@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>house tax</title>
+<link rel="stylesheet" href="button.css">
+</head>
+<body>
+<body background ="C:\Users\VANDANA\Desktop\project\home.jpg">
+<center>
+<h1><b><font color="red" >House tax</font></h1>
+<form action="sent.php" method="POST">
+<table>
+<tr>
+<td style="margin:10px; padding:5px;"> <label><big>Assessment no</big></label></td>
+<td> <input type="text" name="assesment no"></td>
+</tr><br/>
+<tr>
+<td style="margin:10px; padding:5px;"><label><big>Owner name</big><label></td>
+<td><input type="text" name=" owner name"></td>
+</tr>
+
+<tr>
+<td style="margin:10px; padding:5px;"><label><big>Door no</big></label></td>
+<td><input type="text" name="adress" size="10" maxlength="50"></td>
+</tr>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<tr>
+<center>
+<td> </td>
+<td><input type="submit"></td>
+
+</tr>
+</table>
+</form>
+</body>
+</html>
